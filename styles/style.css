@@ -126,7 +126,7 @@ body{
     position: absolute;
     font-size: 15px;
     top: 350px;
-    left: 1200px;
+    left: 1100px;
     background-color: black;
     text-wrap: wrap;
     color: white;
@@ -136,7 +136,6 @@ body{
     width: 80px;
     text-align: center;
     align-items: center;
-    margin-right: 40px;
 }
 
 a{
