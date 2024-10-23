@@ -1,0 +1,179 @@
+body{
+    margin: 0%;
+}
+
+.nav-bar{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 110px;
+}
+
+.company-name{
+    display: flex;
+    height: 110px;
+    width: 130px;
+    padding-left: 40px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.company-logo{
+    width: 80px;
+    padding-right: 35px;
+}
+
+#company-logo-img{
+    padding: 5px;
+    width: 70px;
+}
+
+#company-name-text{
+    font-size: 30px;
+    border: 2px solid white;
+}
+
+#company-name-ff{
+    font-size: 18px;
+}
+
+.company-name p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 0px;
+}
+
+
+.nav-bar-options{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar-options a, .acess-buttons a{
+    color: white;
+}
+
+.options-logo{
+    display: flex;
+    gap: 25px;
+}
+
+.acess-buttons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.acess-buttons a{
+    padding: 2px;
+}
+
+#login-button{
+    border: 1px solid white;
+    border-radius: 10%;
+    color: white;
+}
+
+#signup-button{
+    background-color: white;
+    border-radius: 10%;
+    color: black;
+}
+
+.tag{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px 40px;
+}
+
+.tag-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 750px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    font-size: 90px;
+}
+
+.tag-line div{
+    display: flex;
+}
+
+.tag-line-left{
+    justify-content: left;
+}
+
+.tag-line-center{
+    justify-content: center;
+}
+
+.tag-line-right{
+    justify-content: right;
+}
+
+.para-line{
+    position: absolute;
+    top: 309px;
+    width: 250px;
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+    text-wrap: wrap;
+}
+
+#explore-link{
+    display: flex;
+    margin-top: 215px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.why-us img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.why-us{
+    display: flex;
+}
+
+.why-us-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-top: 80px;
+    gap: 450px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.why-us-text h1{
+    color: white;
+    padding-left: 80px;
+    font-size: 80px;
+}
+
+.why-us-text p{
+    color: white;
+    font-size: 30px;
+    padding-right: 20px;
+}
